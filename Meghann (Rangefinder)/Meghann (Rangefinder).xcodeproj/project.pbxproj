@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C0578C91AEE099A00C95E38 /* MHAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0578C81AEE099A00C95E38 /* MHAppDelegate.swift */; };
+		4C0578CC1AEE099A00C95E38 /* Meghann__Rangefinder_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C0578CA1AEE099A00C95E38 /* Meghann__Rangefinder_.xcdatamodeld */; };
+		4C0578CE1AEE099A00C95E38 /* MHMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0578CD1AEE099A00C95E38 /* MHMasterViewController.swift */; };
+		4C0578D01AEE099A00C95E38 /* MHDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0578CF1AEE099A00C95E38 /* MHDetailViewController.swift */; };
+		4C0578D31AEE099A00C95E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0578D11AEE099A00C95E38 /* Main.storyboard */; };
+		4C0578D51AEE099A00C95E38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0578D41AEE099A00C95E38 /* Images.xcassets */; };
+		4C0578D81AEE099A00C95E38 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0578D61AEE099A00C95E38 /* LaunchScreen.xib */; };
+		4C0578E41AEE099A00C95E38 /* Meghann__Rangefinder_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0578E31AEE099A00C95E38 /* Meghann__Rangefinder_Tests.swift */; };
+		4C0578EE1AEE0A4A00C95E38 /* MHCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0578ED1AEE0A4A00C95E38 /* MHCoreDataStack.swift */; };
+		4C0578F11AEE8B0E00C95E38 /* MHClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0578EF1AEE8B0E00C95E38 /* MHClub.swift */; };
+		4C0578F21AEE8B0E00C95E38 /* MHShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0578F01AEE8B0E00C95E38 /* MHShot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C0578DE1AEE099A00C95E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C0578BB1AEE099A00C95E38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C0578C21AEE099A00C95E38;
+			remoteInfo = "Meghann (Rangefinder)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C0578C31AEE099A00C95E38 /* Meghann (Rangefinder).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meghann (Rangefinder).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0578C71AEE099A00C95E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C0578C81AEE099A00C95E38 /* MHAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHAppDelegate.swift; sourceTree = "<group>"; };
+		4C0578CB1AEE099A00C95E38 /* Meghann__Rangefinder_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Meghann__Rangefinder_.xcdatamodel; sourceTree = "<group>"; };
+		4C0578CD1AEE099A00C95E38 /* MHMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHMasterViewController.swift; sourceTree = "<group>"; };
+		4C0578CF1AEE099A00C95E38 /* MHDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHDetailViewController.swift; sourceTree = "<group>"; };
+		4C0578D21AEE099A00C95E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C0578D41AEE099A00C95E38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C0578D71AEE099A00C95E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4C0578DD1AEE099A00C95E38 /* Meghann (Rangefinder)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meghann (Rangefinder)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0578E21AEE099A00C95E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C0578E31AEE099A00C95E38 /* Meghann__Rangefinder_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meghann__Rangefinder_Tests.swift; sourceTree = "<group>"; };
+		4C0578ED1AEE0A4A00C95E38 /* MHCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHCoreDataStack.swift; sourceTree = "<group>"; };
+		4C0578EF1AEE8B0E00C95E38 /* MHClub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHClub.swift; sourceTree = "<group>"; };
+		4C0578F01AEE8B0E00C95E38 /* MHShot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHShot.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C0578C01AEE099A00C95E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0578DA1AEE099A00C95E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C0578BA1AEE099A00C95E38 = {
+			isa = PBXGroup;
+			children = (
+				4C0578C51AEE099A00C95E38 /* Meghann (Rangefinder) */,
+				4C0578E01AEE099A00C95E38 /* Meghann (Rangefinder)Tests */,
+				4C0578C41AEE099A00C95E38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C0578C41AEE099A00C95E38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C0578C31AEE099A00C95E38 /* Meghann (Rangefinder).app */,
+				4C0578DD1AEE099A00C95E38 /* Meghann (Rangefinder)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C0578C51AEE099A00C95E38 /* Meghann (Rangefinder) */ = {
+			isa = PBXGroup;
+			children = (
+				4C0578C81AEE099A00C95E38 /* MHAppDelegate.swift */,
+				4C0578ED1AEE0A4A00C95E38 /* MHCoreDataStack.swift */,
+				4C0578CD1AEE099A00C95E38 /* MHMasterViewController.swift */,
+				4C0578CF1AEE099A00C95E38 /* MHDetailViewController.swift */,
+				4C0578EF1AEE8B0E00C95E38 /* MHClub.swift */,
+				4C0578F01AEE8B0E00C95E38 /* MHShot.swift */,
+				4C0578D11AEE099A00C95E38 /* Main.storyboard */,
+				4C0578D41AEE099A00C95E38 /* Images.xcassets */,
+				4C0578D61AEE099A00C95E38 /* LaunchScreen.xib */,
+				4C0578CA1AEE099A00C95E38 /* Meghann__Rangefinder_.xcdatamodeld */,
+				4C0578C61AEE099A00C95E38 /* Supporting Files */,
+			);
+			path = "Meghann (Rangefinder)";
+			sourceTree = "<group>";
+		};
+		4C0578C61AEE099A00C95E38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C0578C71AEE099A00C95E38 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C0578E01AEE099A00C95E38 /* Meghann (Rangefinder)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4C0578E31AEE099A00C95E38 /* Meghann__Rangefinder_Tests.swift */,
+				4C0578E11AEE099A00C95E38 /* Supporting Files */,
+			);
+			path = "Meghann (Rangefinder)Tests";
+			sourceTree = "<group>";
+		};
+		4C0578E11AEE099A00C95E38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C0578E21AEE099A00C95E38 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C0578C21AEE099A00C95E38 /* Meghann (Rangefinder) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0578E71AEE099A00C95E38 /* Build configuration list for PBXNativeTarget "Meghann (Rangefinder)" */;
+			buildPhases = (
+				4C0578BF1AEE099A00C95E38 /* Sources */,
+				4C0578C01AEE099A00C95E38 /* Frameworks */,
+				4C0578C11AEE099A00C95E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meghann (Rangefinder)";
+			productName = "Meghann (Rangefinder)";
+			productReference = 4C0578C31AEE099A00C95E38 /* Meghann (Rangefinder).app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C0578DC1AEE099A00C95E38 /* Meghann (Rangefinder)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0578EA1AEE099A00C95E38 /* Build configuration list for PBXNativeTarget "Meghann (Rangefinder)Tests" */;
+			buildPhases = (
+				4C0578D91AEE099A00C95E38 /* Sources */,
+				4C0578DA1AEE099A00C95E38 /* Frameworks */,
+				4C0578DB1AEE099A00C95E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C0578DF1AEE099A00C95E38 /* PBXTargetDependency */,
+			);
+			name = "Meghann (Rangefinder)Tests";
+			productName = "Meghann (Rangefinder)Tests";
+			productReference = 4C0578DD1AEE099A00C95E38 /* Meghann (Rangefinder)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C0578BB1AEE099A00C95E38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MH;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Michael Hulet";
+				TargetAttributes = {
+					4C0578C21AEE099A00C95E38 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4C0578DC1AEE099A00C95E38 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4C0578C21AEE099A00C95E38;
+					};
+				};
+			};
+			buildConfigurationList = 4C0578BE1AEE099A00C95E38 /* Build configuration list for PBXProject "Meghann (Rangefinder)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C0578BA1AEE099A00C95E38;
+			productRefGroup = 4C0578C41AEE099A00C95E38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C0578C21AEE099A00C95E38 /* Meghann (Rangefinder) */,
+				4C0578DC1AEE099A00C95E38 /* Meghann (Rangefinder)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C0578C11AEE099A00C95E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0578D31AEE099A00C95E38 /* Main.storyboard in Resources */,
+				4C0578D81AEE099A00C95E38 /* LaunchScreen.xib in Resources */,
+				4C0578D51AEE099A00C95E38 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0578DB1AEE099A00C95E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C0578BF1AEE099A00C95E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0578F11AEE8B0E00C95E38 /* MHClub.swift in Sources */,
+				4C0578CC1AEE099A00C95E38 /* Meghann__Rangefinder_.xcdatamodeld in Sources */,
+				4C0578C91AEE099A00C95E38 /* MHAppDelegate.swift in Sources */,
+				4C0578F21AEE8B0E00C95E38 /* MHShot.swift in Sources */,
+				4C0578EE1AEE0A4A00C95E38 /* MHCoreDataStack.swift in Sources */,
+				4C0578CE1AEE099A00C95E38 /* MHMasterViewController.swift in Sources */,
+				4C0578D01AEE099A00C95E38 /* MHDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0578D91AEE099A00C95E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0578E41AEE099A00C95E38 /* Meghann__Rangefinder_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C0578DF1AEE099A00C95E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C0578C21AEE099A00C95E38 /* Meghann (Rangefinder) */;
+			targetProxy = 4C0578DE1AEE099A00C95E38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C0578D11AEE099A00C95E38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C0578D21AEE099A00C95E38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C0578D61AEE099A00C95E38 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C0578D71AEE099A00C95E38 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C0578E51AEE099A00C95E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C0578E61AEE099A00C95E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C0578E81AEE099A00C95E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Meghann (Rangefinder)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C0578E91AEE099A00C95E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Meghann (Rangefinder)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C0578EB1AEE099A00C95E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Meghann (Rangefinder)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meghann (Rangefinder).app/Meghann (Rangefinder)";
+			};
+			name = Debug;
+		};
+		4C0578EC1AEE099A00C95E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Meghann (Rangefinder)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meghann (Rangefinder).app/Meghann (Rangefinder)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C0578BE1AEE099A00C95E38 /* Build configuration list for PBXProject "Meghann (Rangefinder)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0578E51AEE099A00C95E38 /* Debug */,
+				4C0578E61AEE099A00C95E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0578E71AEE099A00C95E38 /* Build configuration list for PBXNativeTarget "Meghann (Rangefinder)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0578E81AEE099A00C95E38 /* Debug */,
+				4C0578E91AEE099A00C95E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0578EA1AEE099A00C95E38 /* Build configuration list for PBXNativeTarget "Meghann (Rangefinder)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0578EB1AEE099A00C95E38 /* Debug */,
+				4C0578EC1AEE099A00C95E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C0578CA1AEE099A00C95E38 /* Meghann__Rangefinder_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C0578CB1AEE099A00C95E38 /* Meghann__Rangefinder_.xcdatamodel */,
+			);
+			currentVersion = 4C0578CB1AEE099A00C95E38 /* Meghann__Rangefinder_.xcdatamodel */;
+			path = Meghann__Rangefinder_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C0578BB1AEE099A00C95E38 /* Project object */;
+}

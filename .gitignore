@@ -31,3 +31,8 @@ DerivedData
 # Carthage/Checkouts
 
 Carthage/Build
+
+# OS X Files
+
+.DS_Store
+/**/.DS_Store

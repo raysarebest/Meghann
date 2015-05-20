@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7700" systemVersion="14E17e" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MHClub" representedClassName="Meghann__Rangefinder_.MHClub">
+        <attribute name="averageDistance" attributeType="Double" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <relationship name="shots" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="MHShot" inverseName="club" inverseEntity="MHShot" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="MHShot" representedClassName="Meghann__Rangefinder_.MHShot" syncable="YES">
+        <attribute name="distance" attributeType="Integer 16" minValueString="0" maxValueString="500" defaultValueString="0" syncable="YES"/>
+        <relationship name="club" maxCount="1" deletionRule="Nullify" destinationEntity="MHClub" inverseName="shots" inverseEntity="MHClub" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MHClub" positionX="261" positionY="189" width="128" height="88"/>
+        <element name="MHShot" positionX="466" positionY="204" width="128" height="75"/>
+    </elements>
+</model>
