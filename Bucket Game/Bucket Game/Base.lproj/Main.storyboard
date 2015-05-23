@@ -239,7 +239,7 @@
                             <constraint firstItem="a0L-h9-sNL" firstAttribute="top" secondItem="7JK-Gv-kCf" secondAttribute="bottom" id="pEl-lH-kTv"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Detail" id="cra-N8-TIN"/>
+                    <navigationItem key="navigationItem" title="Game" id="cra-N8-TIN"/>
                     <connections>
                         <outlet property="bucketsHitLabel" destination="LKw-bb-szm" id="NgK-c4-QK8"/>
                         <outlet property="bucketsHitStepper" destination="zTm-ur-see" id="6lJ-Tz-4Mc"/>
