@@ -1,18 +1,18 @@
 //
 //  MasterViewController.swift
-//  Meghann (Rangefinder)
+//  Bucket Game
 //
-//  Created by Michael Hulet on 4/27/15.
+//  Created by Michael Hulet on 5/22/15.
 //  Copyright (c) 2015 Michael Hulet. All rights reserved.
 //
 
 import UIKit
 import CoreData
-class MHMasterViewController: UITableViewController, UITableViewDataSource, NSFetchedResultsControllerDelegate{
+class MHMasterViewController: UITableViewController, NSFetchedResultsControllerDelegate{
     //MARK: - Global Variables
     lazy var results: NSFetchedResultsController = {
-        let request = NSFetchRequest(entityName: "MHClub")
-        request.sortDescriptors = [NSSortDescriptor(key: "averageDistance", ascending: false), NSSortDescriptor(key: "name", ascending: true)]
+        let request = NSFetchRequest(entityName: "MHGame")
+        request.sortDescriptors = [NSSortDescriptor(key: "date", ascending: false)]
         let controller = NSFetchedResultsController(fetchRequest: request, managedObjectContext: MHCoreDataStack.defaultStack.managedObjectContext!, sectionNameKeyPath: nil, cacheName: nil)
         controller.delegate = self
         return controller
@@ -30,25 +30,9 @@ class MHMasterViewController: UITableViewController, UITableViewDataSource, NSFe
         if segue.identifier == "showDetail"{
             let selectedIndexPath = tableView.indexPathForSelectedRow()!
             tableView.deselectRowAtIndexPath(selectedIndexPath, animated: true)
-            (segue.destinationViewController as! MHDetailViewController).club = results.objectAtIndexPath(selectedIndexPath) as? MHClub
+            (segue.destinationViewController as! MHDetailViewController).game = results.objectAtIndexPath(selectedIndexPath) as? MHGame
         }
         super.prepareForSegue(segue, sender: sender)
-    }
-    //MARK: - IBActions
-    @IBAction func newClub() -> Void{
-        let alert = UIAlertController(title: "New Club", message: "What's the name of your new club?", preferredStyle: .Alert)
-        alert.addTextFieldWithConfigurationHandler { (textField: UITextField!) -> Void in
-            textField.placeholder = "New Club"
-            textField.returnKeyType = .Done
-        }
-        alert.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
-        alert.addAction(UIAlertAction(title: "Save", style: .Default, handler: { (action: UIAlertAction!) -> Void in
-            let newClub = NSEntityDescription.insertNewObjectForEntityForName("MHClub", inManagedObjectContext: MHCoreDataStack.defaultStack.managedObjectContext!) as! MHClub
-            newClub.name = (alert.textFields!.first as! UITextField).text
-            MHCoreDataStack.defaultStack.saveContext()
-            self.tableView.reloadData()
-        }))
-        presentViewController(alert, animated: true, completion: nil)
     }
     //MARK: - UITableViewDataSource Functions
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int{
@@ -58,10 +42,13 @@ class MHMasterViewController: UITableViewController, UITableViewDataSource, NSFe
         return (results.sections![section] as! NSFetchedResultsSectionInfo).numberOfObjects
     }
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
+        let formatter = NSDateFormatter()
+        let game = results.objectAtIndexPath(indexPath) as! MHGame
+        formatter.dateStyle = .ShortStyle
+        formatter.timeStyle = .ShortStyle
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
-        let club = results.objectAtIndexPath(indexPath) as! MHClub
-        cell.textLabel!.text = club.name
-        cell.detailTextLabel!.text = "\(club.averageDistance) Yards"
+        cell.textLabel!.text = formatter.stringFromDate(game.date)
+        cell.detailTextLabel!.text = "\(game.score)"
         return cell
     }
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) -> Void{
@@ -73,5 +60,13 @@ class MHMasterViewController: UITableViewController, UITableViewDataSource, NSFe
     //MARK: - NSFetchedResultsControllerDelegate Functions
     func controllerDidChangeContent(controller: NSFetchedResultsController) -> Void{
         tableView.reloadData()
+    }
+    //MARK: - IBActions
+    @IBAction func newGame() -> Void{
+        let newGame = NSEntityDescription.insertNewObjectForEntityForName("MHGame", inManagedObjectContext: MHCoreDataStack.defaultStack.managedObjectContext!) as! MHGame
+        newGame.date = NSDate()
+        MHCoreDataStack.defaultStack.saveContext()
+        tableView.selectRowAtIndexPath(results.indexPathForObject(newGame), animated: true, scrollPosition: .Top)
+        performSegueWithIdentifier("showDetail", sender: self)
     }
 }

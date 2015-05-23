@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../../../Developer/iOS/Sandbox/Meghann (Rangefinder)/GolfWorld.playground">
+      location = "self:Bucket Game.xcodeproj">
    </FileRef>
 </Workspace>

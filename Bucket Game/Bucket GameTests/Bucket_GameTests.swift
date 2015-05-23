@@ -1,15 +1,15 @@
 //
-//  Meghann__Rangefinder_Tests.swift
-//  Meghann (Rangefinder)Tests
+//  Bucket_GameTests.swift
+//  Bucket GameTests
 //
-//  Created by Michael Hulet on 4/27/15.
+//  Created by Michael Hulet on 5/22/15.
 //  Copyright (c) 2015 Michael Hulet. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class Meghann__Rangefinder_Tests: XCTestCase {
+class Bucket_GameTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
