@@ -7,13 +7,13 @@
 //
 
 import UIKit
-import CoreData
 
 @UIApplicationMain
 class MHAppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        MHPeripheralCommunicationManager.mainCommunicator.connect()
         return true
     }
 
@@ -36,5 +36,4 @@ class MHAppDelegate: UIResponder, UIApplicationDelegate {
         // Saves changes in the application's managed object context before the application terminates.
         MHCoreDataStack.defaultStack.saveContext()
     }
-
 }

@@ -20,15 +20,16 @@ class MHMasterViewController: UITableViewController, NSFetchedResultsControllerD
     //MARK: - View Controller Lifecycle
     override func viewDidLoad() -> Void{
         super.viewDidLoad()
-        var error: NSError? = nil
-        results.performFetch(&error)
-        if let realError = error{
-            println(realError)
+        do{
+            try results.performFetch()
+        }
+        catch let error as NSError{
+            print(error)
         }
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) -> Void{
         if segue.identifier == "showDetail"{
-            let selectedIndexPath = tableView.indexPathForSelectedRow()!
+            let selectedIndexPath = tableView.indexPathForSelectedRow!
             tableView.deselectRowAtIndexPath(selectedIndexPath, animated: true)
             (segue.destinationViewController as! MHDetailViewController).game = results.objectAtIndexPath(selectedIndexPath) as? MHGame
         }
@@ -39,14 +40,14 @@ class MHMasterViewController: UITableViewController, NSFetchedResultsControllerD
         return results.sections!.count
     }
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        return (results.sections![section] as! NSFetchedResultsSectionInfo).numberOfObjects
+        return (results.sections![section] as NSFetchedResultsSectionInfo).numberOfObjects
     }
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
         let formatter = NSDateFormatter()
         let game = results.objectAtIndexPath(indexPath) as! MHGame
         formatter.dateStyle = .ShortStyle
         formatter.timeStyle = .ShortStyle
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
         cell.textLabel!.text = formatter.stringFromDate(game.date)
         cell.detailTextLabel!.text = "\(game.score)"
         return cell

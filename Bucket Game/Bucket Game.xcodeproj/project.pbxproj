@@ -7,19 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C263DC51CAFB801009D2353 /* MHPeripheralCommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C526F001CAD042F006509FF /* MHPeripheralCommunicationManager.swift */; };
+		4C526E6F1CAAF364006509FF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C526E6D1CAAF364006509FF /* Interface.storyboard */; };
+		4C526E711CAAF364006509FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C526E701CAAF364006509FF /* Assets.xcassets */; };
+		4C526E7D1CAAF364006509FF /* MHListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C526E7C1CAAF364006509FF /* MHListController.swift */; };
+		4C526E7F1CAAF364006509FF /* MHExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C526E7E1CAAF364006509FF /* MHExtensionDelegate.swift */; };
+		4C526E811CAAF364006509FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C526E801CAAF364006509FF /* Assets.xcassets */; };
+		4C526EEB1CACB94C006509FF /* MHCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB1A191B0FCEAB00C163B2 /* MHCoreDataStack.swift */; };
+		4C526EEC1CACB94E006509FF /* MHCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB1A191B0FCEAB00C163B2 /* MHCoreDataStack.swift */; };
+		4C526EED1CACB958006509FF /* MHGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB1A1B1B0FD09A00C163B2 /* MHGame.swift */; };
+		4C526EEE1CACB95A006509FF /* MHGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB1A1B1B0FD09A00C163B2 /* MHGame.swift */; };
+		4C526EEF1CACB95C006509FF /* Bucket_Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB19F61B0FCE1000C163B2 /* Bucket_Game.xcdatamodeld */; };
+		4C526EF01CACB95D006509FF /* Bucket_Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB19F61B0FCE1000C163B2 /* Bucket_Game.xcdatamodeld */; };
+		4C526EF21CACBF72006509FF /* MHUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C526EF11CACBF72006509FF /* MHUtils.swift */; };
+		4C526EF31CACBF72006509FF /* MHUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C526EF11CACBF72006509FF /* MHUtils.swift */; };
+		4C526EF91CACD3DD006509FF /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C526EF81CACD3DD006509FF /* WatchConnectivity.framework */; };
+		4C526EFB1CACD3EE006509FF /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C526EFA1CACD3EE006509FF /* WatchConnectivity.framework */; };
+		4C526F021CAD042F006509FF /* MHPeripheralCommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C526F001CAD042F006509FF /* MHPeripheralCommunicationManager.swift */; };
 		4CEB19F51B0FCE1000C163B2 /* MHAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB19F41B0FCE1000C163B2 /* MHAppDelegate.swift */; };
-		4CEB19F81B0FCE1000C163B2 /* Bucket_Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB19F61B0FCE1000C163B2 /* Bucket_Game.xcdatamodeld */; };
 		4CEB19FA1B0FCE1000C163B2 /* MHMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB19F91B0FCE1000C163B2 /* MHMasterViewController.swift */; };
 		4CEB19FC1B0FCE1000C163B2 /* MHDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB19FB1B0FCE1000C163B2 /* MHDetailViewController.swift */; };
 		4CEB19FF1B0FCE1000C163B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB19FD1B0FCE1000C163B2 /* Main.storyboard */; };
 		4CEB1A011B0FCE1000C163B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB1A001B0FCE1000C163B2 /* Images.xcassets */; };
 		4CEB1A041B0FCE1000C163B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB1A021B0FCE1000C163B2 /* LaunchScreen.xib */; };
 		4CEB1A101B0FCE1100C163B2 /* Bucket_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB1A0F1B0FCE1000C163B2 /* Bucket_GameTests.swift */; };
-		4CEB1A1A1B0FCEAB00C163B2 /* MHCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB1A191B0FCEAB00C163B2 /* MHCoreDataStack.swift */; };
-		4CEB1A1C1B0FD09A00C163B2 /* MHGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB1A1B1B0FD09A00C163B2 /* MHGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4C526E791CAAF364006509FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CEB19E71B0FCE0F00C163B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C526E761CAAF364006509FF;
+			remoteInfo = "bucket-watch Extension";
+		};
+		4C526E831CAAF364006509FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CEB19E71B0FCE0F00C163B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C526E6A1CAAF364006509FF;
+			remoteInfo = "bucket-watch";
+		};
 		4CEB1A0A1B0FCE1000C163B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4CEB19E71B0FCE0F00C163B2 /* Project object */;
@@ -29,8 +57,55 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4C526E891CAAF364006509FF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C526E8D1CAAF364006509FF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C526EE41CAB3FBC006509FF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		4CEB19EF1B0FCE1000C163B2 /* Bucket Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bucket Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C263DC41CAF2241009D2353 /* Bucket GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bucket GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C526E6E1CAAF364006509FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4C526E701CAAF364006509FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C526E721CAAF364006509FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C526E7C1CAAF364006509FF /* MHListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHListController.swift; sourceTree = "<group>"; };
+		4C526E7E1CAAF364006509FF /* MHExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHExtensionDelegate.swift; sourceTree = "<group>"; };
+		4C526E801CAAF364006509FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C526E821CAAF364006509FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C526EDE1CAB01C4006509FF /* Bucket Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bucket Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C526EE11CAB3FBC006509FF /* bucket-watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bucket-watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C526EE51CAB3FD8006509FF /* bucket-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bucket-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C526EF11CACBF72006509FF /* MHUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHUtils.swift; sourceTree = "<group>"; };
+		4C526EF81CACD3DD006509FF /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		4C526EFA1CACD3EE006509FF /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		4C526F001CAD042F006509FF /* MHPeripheralCommunicationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHPeripheralCommunicationManager.swift; path = "bucket-watch Extension/MHPeripheralCommunicationManager.swift"; sourceTree = "<group>"; };
 		4CEB19F31B0FCE1000C163B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CEB19F41B0FCE1000C163B2 /* MHAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHAppDelegate.swift; sourceTree = "<group>"; };
 		4CEB19F71B0FCE1000C163B2 /* Bucket_Game.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bucket_Game.xcdatamodel; sourceTree = "<group>"; };
@@ -39,18 +114,26 @@
 		4CEB19FE1B0FCE1000C163B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CEB1A001B0FCE1000C163B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4CEB1A031B0FCE1000C163B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4CEB1A091B0FCE1000C163B2 /* Bucket GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bucket GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEB1A0E1B0FCE1000C163B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CEB1A0F1B0FCE1000C163B2 /* Bucket_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_GameTests.swift; sourceTree = "<group>"; };
-		4CEB1A191B0FCEAB00C163B2 /* MHCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHCoreDataStack.swift; sourceTree = "<group>"; };
-		4CEB1A1B1B0FD09A00C163B2 /* MHGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHGame.swift; sourceTree = "<group>"; };
+		4CEB1A191B0FCEAB00C163B2 /* MHCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHCoreDataStack.swift; path = "Bucket Game/MHCoreDataStack.swift"; sourceTree = "<group>"; };
+		4CEB1A1B1B0FD09A00C163B2 /* MHGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHGame.swift; path = "Bucket Game/MHGame.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4C526E741CAAF364006509FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C526EFB1CACD3EE006509FF /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4CEB19EC1B0FCE0F00C163B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C526EF91CACD3DD006509FF /* WatchConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,55 +147,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C526E6C1CAAF364006509FF /* Watch Interface */ = {
+			isa = PBXGroup;
+			children = (
+				4C526E6D1CAAF364006509FF /* Interface.storyboard */,
+				4C526E701CAAF364006509FF /* Assets.xcassets */,
+				4C526E721CAAF364006509FF /* Info.plist */,
+			);
+			name = "Watch Interface";
+			path = "bucket-watch";
+			sourceTree = "<group>";
+		};
+		4C526E7B1CAAF364006509FF /* Watch Logic */ = {
+			isa = PBXGroup;
+			children = (
+				4C526E7C1CAAF364006509FF /* MHListController.swift */,
+				4C526E7E1CAAF364006509FF /* MHExtensionDelegate.swift */,
+				4C526E801CAAF364006509FF /* Assets.xcassets */,
+				4C526E821CAAF364006509FF /* Info.plist */,
+				4C526EFC1CACD3F9006509FF /* Supporting Files */,
+			);
+			name = "Watch Logic";
+			path = "bucket-watch Extension";
+			sourceTree = "<group>";
+		};
+		4C526EE61CACB84B006509FF /* Shared Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C526F001CAD042F006509FF /* MHPeripheralCommunicationManager.swift */,
+				4CEB1A191B0FCEAB00C163B2 /* MHCoreDataStack.swift */,
+				4CEB1A1B1B0FD09A00C163B2 /* MHGame.swift */,
+				4CEB19F61B0FCE1000C163B2 /* Bucket_Game.xcdatamodeld */,
+				4C526EF11CACBF72006509FF /* MHUtils.swift */,
+			);
+			name = "Shared Files";
+			sourceTree = "<group>";
+		};
+		4C526EFC1CACD3F9006509FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C526EFA1CACD3EE006509FF /* WatchConnectivity.framework */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		4CEB19E61B0FCE0F00C163B2 = {
 			isa = PBXGroup;
 			children = (
-				4CEB19F11B0FCE1000C163B2 /* Bucket Game */,
-				4CEB1A0C1B0FCE1000C163B2 /* Bucket GameTests */,
-				4CEB19F01B0FCE1000C163B2 /* Products */,
+				4CEB19F11B0FCE1000C163B2 /* iOS */,
+				4CEB1A0C1B0FCE1000C163B2 /* iOS Tests */,
+				4C526E6C1CAAF364006509FF /* Watch Interface */,
+				4C526E7B1CAAF364006509FF /* Watch Logic */,
+				4C526EE61CACB84B006509FF /* Shared Files */,
+				4C526EDE1CAB01C4006509FF /* Bucket Game.app */,
+				4C526EE11CAB3FBC006509FF /* bucket-watch Extension.appex */,
+				4C526EE51CAB3FD8006509FF /* bucket-watch.app */,
+				4C263DC41CAF2241009D2353 /* Bucket GameTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
-		4CEB19F01B0FCE1000C163B2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4CEB19EF1B0FCE1000C163B2 /* Bucket Game.app */,
-				4CEB1A091B0FCE1000C163B2 /* Bucket GameTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4CEB19F11B0FCE1000C163B2 /* Bucket Game */ = {
+		4CEB19F11B0FCE1000C163B2 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				4CEB19F41B0FCE1000C163B2 /* MHAppDelegate.swift */,
-				4CEB1A191B0FCEAB00C163B2 /* MHCoreDataStack.swift */,
 				4CEB19F91B0FCE1000C163B2 /* MHMasterViewController.swift */,
 				4CEB19FB1B0FCE1000C163B2 /* MHDetailViewController.swift */,
-				4CEB1A1B1B0FD09A00C163B2 /* MHGame.swift */,
 				4CEB19FD1B0FCE1000C163B2 /* Main.storyboard */,
 				4CEB1A001B0FCE1000C163B2 /* Images.xcassets */,
 				4CEB1A021B0FCE1000C163B2 /* LaunchScreen.xib */,
-				4CEB19F61B0FCE1000C163B2 /* Bucket_Game.xcdatamodeld */,
 				4CEB19F21B0FCE1000C163B2 /* Supporting Files */,
 			);
+			name = iOS;
 			path = "Bucket Game";
 			sourceTree = "<group>";
 		};
 		4CEB19F21B0FCE1000C163B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4C526EF81CACD3DD006509FF /* WatchConnectivity.framework */,
 				4CEB19F31B0FCE1000C163B2 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4CEB1A0C1B0FCE1000C163B2 /* Bucket GameTests */ = {
+		4CEB1A0C1B0FCE1000C163B2 /* iOS Tests */ = {
 			isa = PBXGroup;
 			children = (
 				4CEB1A0F1B0FCE1000C163B2 /* Bucket_GameTests.swift */,
 				4CEB1A0D1B0FCE1000C163B2 /* Supporting Files */,
 			);
+			name = "iOS Tests";
 			path = "Bucket GameTests";
 			sourceTree = "<group>";
 		};
@@ -127,6 +251,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4C526E6A1CAAF364006509FF /* bucket-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C526E8A1CAAF364006509FF /* Build configuration list for PBXNativeTarget "bucket-watch" */;
+			buildPhases = (
+				4C526E691CAAF364006509FF /* Resources */,
+				4C526E891CAAF364006509FF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C526E7A1CAAF364006509FF /* PBXTargetDependency */,
+			);
+			name = "bucket-watch";
+			productName = "bucket-watch";
+			productReference = 4C526EE51CAB3FD8006509FF /* bucket-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4C526E761CAAF364006509FF /* bucket-watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C526E861CAAF364006509FF /* Build configuration list for PBXNativeTarget "bucket-watch Extension" */;
+			buildPhases = (
+				4C526E731CAAF364006509FF /* Sources */,
+				4C526E741CAAF364006509FF /* Frameworks */,
+				4C526E751CAAF364006509FF /* Resources */,
+				4C526EE41CAB3FBC006509FF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bucket-watch Extension";
+			productName = "bucket-watch Extension";
+			productReference = 4C526EE11CAB3FBC006509FF /* bucket-watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		4CEB19EE1B0FCE0F00C163B2 /* Bucket Game */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CEB1A131B0FCE1100C163B2 /* Build configuration list for PBXNativeTarget "Bucket Game" */;
@@ -134,14 +293,16 @@
 				4CEB19EB1B0FCE0F00C163B2 /* Sources */,
 				4CEB19EC1B0FCE0F00C163B2 /* Frameworks */,
 				4CEB19ED1B0FCE0F00C163B2 /* Resources */,
+				4C526E8D1CAAF364006509FF /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4C526E841CAAF364006509FF /* PBXTargetDependency */,
 			);
 			name = "Bucket Game";
 			productName = "Bucket Game";
-			productReference = 4CEB19EF1B0FCE1000C163B2 /* Bucket Game.app */;
+			productReference = 4C526EDE1CAB01C4006509FF /* Bucket Game.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4CEB1A081B0FCE1000C163B2 /* Bucket GameTests */ = {
@@ -159,7 +320,7 @@
 			);
 			name = "Bucket GameTests";
 			productName = "Bucket GameTests";
-			productReference = 4CEB1A091B0FCE1000C163B2 /* Bucket GameTests.xctest */;
+			productReference = 4C263DC41CAF2241009D2353 /* Bucket GameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -169,9 +330,18 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MH;
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Michael Hulet";
 				TargetAttributes = {
+					4C526E6A1CAAF364006509FF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = K3ZLWH83BT;
+					};
+					4C526E761CAAF364006509FF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = K3ZLWH83BT;
+					};
 					4CEB19EE1B0FCE0F00C163B2 = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -190,17 +360,36 @@
 				Base,
 			);
 			mainGroup = 4CEB19E61B0FCE0F00C163B2;
-			productRefGroup = 4CEB19F01B0FCE1000C163B2 /* Products */;
+			productRefGroup = 4CEB19E61B0FCE0F00C163B2;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4CEB19EE1B0FCE0F00C163B2 /* Bucket Game */,
 				4CEB1A081B0FCE1000C163B2 /* Bucket GameTests */,
+				4C526E6A1CAAF364006509FF /* bucket-watch */,
+				4C526E761CAAF364006509FF /* bucket-watch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4C526E691CAAF364006509FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C526E711CAAF364006509FF /* Assets.xcassets in Resources */,
+				4C526E6F1CAAF364006509FF /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C526E751CAAF364006509FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C526E811CAAF364006509FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4CEB19ED1B0FCE0F00C163B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -221,15 +410,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4C526E731CAAF364006509FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C526E7F1CAAF364006509FF /* MHExtensionDelegate.swift in Sources */,
+				4C526E7D1CAAF364006509FF /* MHListController.swift in Sources */,
+				4C526EF31CACBF72006509FF /* MHUtils.swift in Sources */,
+				4C526EEE1CACB95A006509FF /* MHGame.swift in Sources */,
+				4C526EF01CACB95D006509FF /* Bucket_Game.xcdatamodeld in Sources */,
+				4C526F021CAD042F006509FF /* MHPeripheralCommunicationManager.swift in Sources */,
+				4C526EEC1CACB94E006509FF /* MHCoreDataStack.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4CEB19EB1B0FCE0F00C163B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4CEB19F51B0FCE1000C163B2 /* MHAppDelegate.swift in Sources */,
-				4CEB19F81B0FCE1000C163B2 /* Bucket_Game.xcdatamodeld in Sources */,
-				4CEB1A1C1B0FD09A00C163B2 /* MHGame.swift in Sources */,
-				4CEB1A1A1B0FCEAB00C163B2 /* MHCoreDataStack.swift in Sources */,
+				4C526EEF1CACB95C006509FF /* Bucket_Game.xcdatamodeld in Sources */,
+				4C526EF21CACBF72006509FF /* MHUtils.swift in Sources */,
+				4C263DC51CAFB801009D2353 /* MHPeripheralCommunicationManager.swift in Sources */,
 				4CEB19FA1B0FCE1000C163B2 /* MHMasterViewController.swift in Sources */,
+				4C526EED1CACB958006509FF /* MHGame.swift in Sources */,
+				4C526EEB1CACB94C006509FF /* MHCoreDataStack.swift in Sources */,
 				4CEB19FC1B0FCE1000C163B2 /* MHDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +450,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4C526E7A1CAAF364006509FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C526E761CAAF364006509FF /* bucket-watch Extension */;
+			targetProxy = 4C526E791CAAF364006509FF /* PBXContainerItemProxy */;
+		};
+		4C526E841CAAF364006509FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C526E6A1CAAF364006509FF /* bucket-watch */;
+			targetProxy = 4C526E831CAAF364006509FF /* PBXContainerItemProxy */;
+		};
 		4CEB1A0B1B0FCE1000C163B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4CEB19EE1B0FCE0F00C163B2 /* Bucket Game */;
@@ -253,6 +468,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4C526E6D1CAAF364006509FF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C526E6E1CAAF364006509FF /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		4CEB19FD1B0FCE1000C163B2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,6 +495,82 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4C526E871CAAF364006509FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "bucket-watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hulet.michael.Bucket-Game.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4C526E881CAAF364006509FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "bucket-watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hulet.michael.Bucket-Game.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		4C526E8B1CAAF364006509FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = bucket_watch_Extension;
+				INFOPLIST_FILE = "bucket-watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hulet.michael.Bucket-Game.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4C526E8C1CAAF364006509FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = bucket_watch_Extension;
+				INFOPLIST_FILE = "bucket-watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hulet.michael.Bucket-Game.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 		4CEB1A111B0FCE1100C163B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -293,6 +592,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -308,7 +608,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -346,7 +646,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -358,8 +658,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Bucket Game/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hulet.michael.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -369,8 +670,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Bucket Game/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hulet.michael.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -379,16 +681,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Bucket GameTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hulet.michael.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bucket Game.app/Bucket Game";
 			};
@@ -398,12 +698,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Bucket GameTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.hulet.michael.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bucket Game.app/Bucket Game";
 			};
@@ -412,6 +710,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4C526E861CAAF364006509FF /* Build configuration list for PBXNativeTarget "bucket-watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C526E871CAAF364006509FF /* Debug */,
+				4C526E881CAAF364006509FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C526E8A1CAAF364006509FF /* Build configuration list for PBXNativeTarget "bucket-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C526E8B1CAAF364006509FF /* Debug */,
+				4C526E8C1CAAF364006509FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4CEB19EA1B0FCE0F00C163B2 /* Build configuration list for PBXProject "Bucket Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -428,6 +744,7 @@
 				4CEB1A151B0FCE1100C163B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CEB1A161B0FCE1100C163B2 /* Build configuration list for PBXNativeTarget "Bucket GameTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +753,7 @@
 				4CEB1A181B0FCE1100C163B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -446,7 +764,8 @@
 				4CEB19F71B0FCE1000C163B2 /* Bucket_Game.xcdatamodel */,
 			);
 			currentVersion = 4CEB19F71B0FCE1000C163B2 /* Bucket_Game.xcdatamodel */;
-			path = Bucket_Game.xcdatamodeld;
+			name = Bucket_Game.xcdatamodeld;
+			path = "Bucket Game/Bucket_Game.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -21,11 +21,11 @@ class MHDetailViewController: UIViewController{
         var label: UILabel? = nil
         if sender == bucketsHitStepper{
             label = bucketsHitLabel
-            game!.setHitBuckets(sender.value)
+            game!.setHitBuckets(Int(sender.value))
         }
         else if sender == shotsMadeStepper{
             label = shotsMadeLabel
-            game!.setMadeShots(sender.value)
+            game!.setMadeShots(Int(sender.value))
         }
         label!.text = "\(Int(sender.value))"
         totalLabel.text = "\(game!.score.integerValue)"
