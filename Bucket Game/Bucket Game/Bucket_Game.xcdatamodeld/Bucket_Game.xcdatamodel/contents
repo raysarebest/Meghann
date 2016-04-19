@@ -2,10 +2,10 @@
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15F18b" minimumToolsVersion="Automatic">
     <entity name="MHGame" representedClassName=".MHGame">
         <attribute name="bucketsHit" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="bucketsLastUpdated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="bucketsLastUpdated" optional="YES" attributeType="Date" defaultDateTimeInterval="-978285600" syncable="YES"/>
         <attribute name="date" attributeType="Date" defaultDateTimeInterval="-978285600" indexed="YES" syncable="YES"/>
         <attribute name="score" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="shotsLastUpdated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="shotsLastUpdated" optional="YES" attributeType="Date" defaultDateTimeInterval="-978285600" syncable="YES"/>
         <attribute name="shotsMade" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <userInfo/>
     </entity>
