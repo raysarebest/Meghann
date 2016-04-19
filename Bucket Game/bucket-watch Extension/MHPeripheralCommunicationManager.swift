@@ -7,13 +7,14 @@
 //
 
 import Foundation
-#if os(iOS)
-import UIKit
-#endif
 import WatchConnectivity
 
 protocol MHPeripheralCommunicationDelegate{
     func applicationDidRecieveData(data: [String: AnyObject], responseHandler: (([String: AnyObject]) -> Void)?) -> Void
+}
+
+protocol MHSerializable{
+    func serialize() -> [String: AnyObject]
 }
 
 private struct MHWaitingMessage{
@@ -86,6 +87,9 @@ class MHPeripheralCommunicationManager: NSObject, WCSessionDelegate{
                 }
             }
         }
+    }
+    func sendData(data: MHSerializable, replyHandler: (([String: AnyObject]) -> Void)? = nil, errorHandler: ((NSError) -> Void)? = nil) -> Void{
+        sendData(data.serialize(), replyHandler: replyHandler, errorHandler: errorHandler)
     }
     //MARK: - Private Helpers
     private override init(){

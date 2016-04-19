@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4C263DC51CAFB801009D2353 /* MHPeripheralCommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C526F001CAD042F006509FF /* MHPeripheralCommunicationManager.swift */; };
+		4C376D7E1CBCD7E20013D30F /* MHDataSynchronizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C376D7D1CBCD7E20013D30F /* MHDataSynchronizer.swift */; };
+		4C376D7F1CBCD7E20013D30F /* MHDataSynchronizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C376D7D1CBCD7E20013D30F /* MHDataSynchronizer.swift */; };
+		4C376D811CBCD8080013D30F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C376D801CBCD8080013D30F /* CoreData.framework */; };
 		4C526E6F1CAAF364006509FF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C526E6D1CAAF364006509FF /* Interface.storyboard */; };
 		4C526E711CAAF364006509FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C526E701CAAF364006509FF /* Assets.xcassets */; };
 		4C526E7D1CAAF364006509FF /* MHListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C526E7C1CAAF364006509FF /* MHListController.swift */; };
@@ -92,6 +95,8 @@
 
 /* Begin PBXFileReference section */
 		4C263DC41CAF2241009D2353 /* Bucket GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bucket GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C376D7D1CBCD7E20013D30F /* MHDataSynchronizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHDataSynchronizer.swift; sourceTree = "<group>"; };
+		4C376D801CBCD8080013D30F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
 		4C526E6E1CAAF364006509FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		4C526E701CAAF364006509FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C526E721CAAF364006509FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -125,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C376D811CBCD8080013D30F /* CoreData.framework in Frameworks */,
 				4C526EFB1CACD3EE006509FF /* WatchConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,6 +183,7 @@
 				4C526F001CAD042F006509FF /* MHPeripheralCommunicationManager.swift */,
 				4CEB1A191B0FCEAB00C163B2 /* MHCoreDataStack.swift */,
 				4CEB1A1B1B0FD09A00C163B2 /* MHGame.swift */,
+				4C376D7D1CBCD7E20013D30F /* MHDataSynchronizer.swift */,
 				4CEB19F61B0FCE1000C163B2 /* Bucket_Game.xcdatamodeld */,
 				4C526EF11CACBF72006509FF /* MHUtils.swift */,
 			);
@@ -186,6 +193,7 @@
 		4C526EFC1CACD3F9006509FF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4C376D801CBCD8080013D30F /* CoreData.framework */,
 				4C526EFA1CACD3EE006509FF /* WatchConnectivity.framework */,
 			);
 			name = "Supporting Files";
@@ -414,6 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C376D7F1CBCD7E20013D30F /* MHDataSynchronizer.swift in Sources */,
 				4C526E7F1CAAF364006509FF /* MHExtensionDelegate.swift in Sources */,
 				4C526E7D1CAAF364006509FF /* MHListController.swift in Sources */,
 				4C526EF31CACBF72006509FF /* MHUtils.swift in Sources */,
@@ -430,6 +439,7 @@
 			files = (
 				4CEB19F51B0FCE1000C163B2 /* MHAppDelegate.swift in Sources */,
 				4C526EEF1CACB95C006509FF /* Bucket_Game.xcdatamodeld in Sources */,
+				4C376D7E1CBCD7E20013D30F /* MHDataSynchronizer.swift in Sources */,
 				4C526EF21CACBF72006509FF /* MHUtils.swift in Sources */,
 				4C263DC51CAFB801009D2353 /* MHPeripheralCommunicationManager.swift in Sources */,
 				4CEB19FA1B0FCE1000C163B2 /* MHMasterViewController.swift in Sources */,

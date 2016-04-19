@@ -11,7 +11,7 @@ import CoreData
 class MHMasterViewController: UITableViewController, NSFetchedResultsControllerDelegate{
     //MARK: - Global Variables
     lazy var results: NSFetchedResultsController = {
-        let request = NSFetchRequest(entityName: "MHGame")
+        let request = NSFetchRequest(entityName: MHGameSerializationKeys.GameClassName.rawValue)
         request.sortDescriptors = [NSSortDescriptor(key: "date", ascending: false)]
         let controller = NSFetchedResultsController(fetchRequest: request, managedObjectContext: MHCoreDataStack.defaultStack.managedObjectContext!, sectionNameKeyPath: nil, cacheName: nil)
         controller.delegate = self
@@ -64,7 +64,7 @@ class MHMasterViewController: UITableViewController, NSFetchedResultsControllerD
     }
     //MARK: - IBActions
     @IBAction func newGame() -> Void{
-        let newGame = NSEntityDescription.insertNewObjectForEntityForName("MHGame", inManagedObjectContext: MHCoreDataStack.defaultStack.managedObjectContext!) as! MHGame
+        let newGame = NSEntityDescription.insertNewObjectForEntityForName(MHGameSerializationKeys.GameClassName.rawValue, inManagedObjectContext: MHCoreDataStack.defaultStack.managedObjectContext!) as! MHGame
         newGame.date = NSDate()
         MHCoreDataStack.defaultStack.saveContext()
         tableView.selectRowAtIndexPath(results.indexPathForObject(newGame), animated: true, scrollPosition: .Top)
